@@ -6,16 +6,9 @@
 	<artifactId>java-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	
-	<name>Maven Web Application</name>
-	<url>http://mithuntechnologies.com</url>
+
 	
 	<description>Maven Web Project</description>
-
-	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
-	</organization>
 
 	<properties>
 		<!-- versions -->
@@ -146,11 +139,11 @@
 		<distributionManagement>
     <snapshotRepository>
       <id>nexus-repo</id>
-      <url>http://15.206.163.179:8081/repository/maven-snapshots/</url>
+      <url>http://35.154.121.188:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexus-repo</id>
-      <url>http://15.206.163.179:8081/repository/maven-releases/</url>
+      <url>http://35.154.121.188:8081/repository/maven-releases/</url>
     </repository>
   
   </distributionManagement>
