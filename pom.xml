@@ -104,7 +104,7 @@
             </activation>
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url> http://13.127.209.49:9000 </sonar.host.url>           
+                <sonar.host.url> http://13.233.115.51:9000 </sonar.host.url>           
             </properties>
         </profile>
      </profiles>
@@ -139,11 +139,11 @@
 		<distributionManagement>
     <snapshotRepository>
       <id>nexus-repo</id>
-      <url>http://13.235.86.29:8081/repository/maven-snapshots/</url>
+      <url>http://13.232.233.162:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexus-repo</id>
-      <url>http://13.235.86.29:8081/repository/maven-releases/</url>
+      <url>http://13.232.233.162:8081/repository/maven-releases/</url>
     </repository>
   
   </distributionManagement>
